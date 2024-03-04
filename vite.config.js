@@ -1,17 +1,8 @@
-// vite.config.js
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command }) => {
-  const config = {
-    plugins: [react()],
-    base: "/",
-  };
-
-  if (command !== "serve") {
-    config.base = "/social_links_profile/";
-  }
-
-  return config;
+export default defineConfig({
+  plugins: [react()],
+  base: "/social_links_profile/",
 });
