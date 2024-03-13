@@ -8,9 +8,15 @@ function App() {
       <p className="country">Germany, Baden-Württemberg</p>
       <p className="bio"> "Front-end enthusiast developer" </p>
       <div className="button-wrapper">
-        <button>GitHub</button>
-        <button>Frontend Mentor</button>
-        <button>LinkedIn</button>
+        <a href="https://github.com/hryndi">
+          <button>GitHub</button>
+        </a>
+        <a href="https://www.frontendmentor.io/profile/hryndi">
+          <button>Frontend Mentor</button>
+        </a>
+        <a href="https://www.linkedin.com/in/dmytro-hrynov-2701522ba/">
+          <button>LinkedIn</button>
+        </a>
         <button>Twitter</button>
         <button>Instagram</button>
       </div>
